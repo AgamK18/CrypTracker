@@ -44,8 +44,3 @@ To get started with Cryptocurrency Tracker, follow these steps:
 - **Tailwind CSS**: Modular and scoped CSS styling approach.
 - **tsParticles**: For the animations of the homepage.
 
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to reach out to us at [contact@cryptotracker.com](mailto:contact@cryptotracker.com). We'd love to hear from you!
-
-Happy tracking!
