@@ -22,14 +22,15 @@ const Popular = () => {
     let profit = card.price_change_percentage_24h>=0;
     let element = <span>{profit && "+"} {card.price_change_percentage_24h.toFixed(2)}%</span>
     
-    return (<CoinCard img = {card.image}
-    price = {card.current_price.toLocaleString("en-US")}
-    title = {card.name}
-    change = {element}
-    profit = {profit}
-    id = {card.id}
-    />
-  )})
+    return (
+      (<CoinCard img = {card.image}
+      price = {card.current_price.toLocaleString("en-US")}
+      label={card.name}
+      change = {element}
+      profit = {profit}
+      id = {card.id}
+      />)
+    );})
 
   return (
     <div>
